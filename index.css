@@ -47,7 +47,11 @@ button {
     margin-bottom: 3em;
 }
 
-
+.points2 {
+    margin-bottom: 3em;
+    position: absolute;
+    bottom: 0px;
+}
 
 .section {
     margin: auto
