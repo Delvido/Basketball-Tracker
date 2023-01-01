@@ -10,12 +10,12 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
-    color: white;
-    background-color: #1B244A;
-    max-width: 575px;
+    justify-content: space-around;
+    width: 60%;
     margin: auto;
-    border-radius: 10px
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 3px solid whitesmoke;
 }
 
 h3 {
