@@ -40,8 +40,8 @@ function threePointsGuest() {
 
 function resetScoreboard() {
 
-var homePoint = 0;
-var guestPoint = 0;
+ homePoint = 0;
+  guestPoint = 0;
 
 homePointsEl.textContent = homePoint;
 guestPointsEl.textContent = guestPoint;
