@@ -23,6 +23,7 @@ body {
 h3 {
     font-size: 40px;
     margin: 20px;
+    color: white;
 }
 button {
     font-family: 'Cursed Timer ULiL', sans-serif;
@@ -45,7 +46,7 @@ button:hover {
 
 .number {
     font-size:90px;
-    background-color: whitesmoke;
+    background-color: #080001;
     color: #F94F6D;
     font-family: Cursed Timer ULiL;
     border-radius: 5px;
