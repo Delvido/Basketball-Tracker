@@ -4,6 +4,8 @@ body {
     margin: 2%;
     font-family: Verdana, sans-serif;
     text-align: center;
+    background-image: url(https://d3pnpe87i1fkwu.cloudfront.net/wp-content/uploads/2022/05/NBA-Court-Color.svg);
+    background-size: cover;
 }
 
 .container {
@@ -35,10 +37,7 @@ button:hover {
 }
 
 .resetscoreboardbtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:0.4rem 1rem;
+    margin: 3rem;
 }
 
 .number {
