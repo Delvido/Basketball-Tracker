@@ -1,5 +1,6 @@
 var homePointsEl = document.getElementById("homepointsel");
 var guestPointsEl = document.getElementById("guestpointsel");
+var resetScoreboardBtn = document.getElementById("resetscoreboardbtn")
 
 var homePoint = 0;
 var guestPoint = 0;
@@ -22,8 +23,6 @@ function threePointsHome() {
     homePointsEl.textContent = homePoint
 }
 
-// For the Guest Points
-
 function onePointGuest() {
     guestPoint ++
     guestPointsEl.textContent = guestPoint
@@ -37,4 +36,13 @@ function twoPointsGuest() {
 function threePointsGuest() {
     guestPoint += 3
     guestPointsEl.textContent = guestPoint
+}
+
+function resetScoreboard() {
+
+var homePoint = 0;
+var guestPoint = 0;
+
+homePointsEl.textContent = homePoint;
+guestPointsEl.textContent = guestPoint;
 }
