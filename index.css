@@ -11,6 +11,8 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    background-color: #1b244ade;
+
     width: 60%;
     margin: auto;
     margin-top: 50px;
