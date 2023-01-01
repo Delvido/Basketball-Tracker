@@ -27,8 +27,12 @@ button {
     background-color: transparent;
     border: 2px solid #9AABD8;
     border-radius: 5px;
-    padding: 10px
+    padding: 10px;
+    transition-duration: 0.5s
 }
+.button:hover {
+    color: white;
+  }
 
 .number {
     font-size:90px;
@@ -47,11 +51,6 @@ button {
     margin-bottom: 3em;
 }
 
-.points2 {
-    margin-bottom: 3em;
-    border: 0;
-    padding: 10px;
-}
 
 .section {
     margin: auto
