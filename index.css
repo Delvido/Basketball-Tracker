@@ -30,10 +30,10 @@ button {
     padding: 10px;
     transition-duration: 0.5s
 }
-.button:hover {
-    color: white;
-  }
 
+button:hover {
+    box-shadow: 1px 1px 5px;
+}
 .number {
     font-size:90px;
     background-color: #080001;
